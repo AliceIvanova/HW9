@@ -1,0 +1,11 @@
+{
+  "type":"snowboard",
+  "brand": "Never Summer",
+  "model": "2024-2025",
+  "level": ["advance", "progressive","expert"],
+  "characteristics": {
+    "Purpose": "freeride",
+    "Hardness": "hard",
+    "HardnessLevel": 8
+  }
+}

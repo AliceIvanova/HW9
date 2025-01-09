@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JacksonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-09T09:23:48" hostname="DESKTOP-9S7F8F1" time="0.143">
+  <properties/>
+  <testcase name="jsonSnowboardTest()" classname="JacksonTest" time="0.143"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
