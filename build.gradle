@@ -1,0 +1,38 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(
+
+            "com.codeborne:selenide:7.5.1",
+            "org.junit.jupiter:junit-jupiter:5.11.2",
+            "org.slf4j:slf4j-simple:2.0.7",
+            "com.github.javafaker:javafaker:1.0.2",
+            "org.assertj:assertj-core:3.26.3",
+            "org.assertj:assertj-guava:3.0.0",
+            "net.javacrumbs.json-unit:json-unit-assertj:3.4.1",
+            "com.codeborne:pdf-test:1.5.0",
+            "com.codeborne:xls-test:1.7.2",
+            "com.opencsv:opencsv:5.7.1",
+            "org.apache.poi:poi-ooxml:5.2.3",// Для работы с XLSX
+            "org.apache.poi:poi-ooxml-schemas:4.1.2", // Для работы с схемами XLSX
+            "com.fasterxml.jackson.core:jackson-core:2.13.1",
+            "com.konghq:unirest-objectmapper-jackson:4.2.9",
+            "com.fasterxml.jackson.core:jackson-annotations:2.16.0",
+            "com.fasterxml.jackson.core:jackson-databind:2.16.0"
+    )
+}
+
+test {
+    useJUnitPlatform()
+//            {
+//        if (project.hasProperty("SMOKE")) {
+//            includeTags(project.property("SMOKE") as String)
+//        }
+//}
+}
